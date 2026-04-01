@@ -10,3 +10,5 @@ def compute(expression):
     else:
         print('unknown operator!')
         return None
+    elif operator == '*':
+        return num0 * num1
